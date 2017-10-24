@@ -1,0 +1,23 @@
+{
+  "name": "god",
+  "version": "1.0.0",
+  "description": "Doing Stuff",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "led": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/EthanJWright/node"
+  },
+  "author": "Ethan Wright",
+  "license": "ISC"
+}
